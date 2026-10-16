@@ -109,7 +109,6 @@ Health-Insurance-Cost-Prediction/
 ├── notebook/
 │   └── Task1_Insurance_Regression_STUDENT.ipynb
 ├── .gitignore
-├── requirements.txt
 └── README.md
 ```
 
