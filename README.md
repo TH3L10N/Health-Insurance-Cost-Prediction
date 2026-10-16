@@ -1,4 +1,7 @@
-# Task 1: Health Insurance Cost Prediction
+# Health Insurance Cost Prediction
+
+## 💡 Project Overview
+This project aims to build and evaluate several machine learning regression models to predict yearly medical charges (`charges`) for insurance customers based on demographic and health attributes (such as age, BMI, smoking status, etc.). Accurate predictions enable the insurance company to determine appropriate and fair policy pricing. Additionally, an interactive web application is deployed using Gradio for real-time predictions.
 
 ## Business Brief
 An insurance company wants to predict the yearly medical charges of each customer, so it can price its policies correctly.
@@ -52,4 +55,23 @@ Build four regression models, compare them, and choose the one that predicts `ch
 
 ## Web App Deployment (Gradio)
 The best model (Polynomial Regression) has been integrated into a Gradio interface allowing users to input customer parameters (Age, Sex, BMI, Children, Smoker, Region) and instantly receive the predicted yearly medical charges.# Health-Insurance-Cost-Prediction
+---
+## 🛠️ Tools & Libraries Used
+The project is implemented in **Python** using industry-standard data science and machine learning libraries:
+- **Pandas & NumPy**: For data manipulation, cleaning, and numerical computations.
+- **Scikit-Learn**: For building regression models, pipelines, data splitting, and performance evaluation.
+- **Matplotlib & Seaborn**: For exploratory data analysis (EDA) and data visualization.
+- **Gradio**: For deploying the best model as an interactive web app.
+---
 # Health-Insurance-Cost-Prediction
+## 📂 Project Structure
+Health-Insurance-Cost-Prediction/
+│
+├── data/
+│   └── insurance.csv         # Original dataset
+│
+├── notebook/
+│   └── Task1_Insurance_Regression_STUDENT.ipynb  # Jupyter Notebook containing code, analysis, and outputs
+│
+├── .gitignore                # Files and directories to ignore by Git
+└── README.md                 # Project documentation
